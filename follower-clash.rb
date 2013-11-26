@@ -23,4 +23,6 @@ new_comparison.compare_tweet_count(john, kendra)\
 
 puts "#{john.username}'s tweet count: #{john.tweet_counter}"
 puts "#{kendra.username}'s tweet count: #{kendra.tweet_counter}"
-
+puts "#{john.username}'s last tweet: #{john.last_tweet}"
+puts "#{john.username}'s twitter handle: @#{john.handle}"
+puts "#{john.username}'s twitter url: #{john.url}"
